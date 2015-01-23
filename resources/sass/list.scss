@@ -1,0 +1,146 @@
+@mixin list{
+
+  // --------------------------------Speaker list -----------------------------------------
+
+  .speakerListCls{
+    .avatar {
+      background-size: 40px 40px;
+      background-position: left center;
+      background-repeat: no-repeat;
+      padding: 10px 0 10px 50px;
+    }
+  }
+
+  // --------------------------------Generic List Style ----------------------------------------------
+
+  .x-list{
+    .x-list-item{
+      border-bottom: 1px solid #649b02 !important;
+      .headingCls{
+	color:#1d5a8a;
+	font-size: 16px;
+	font-weight: bold;
+      }
+    }
+    .x-list-item.x-item-selected, .x-list-item.x-item-pressing, .x-list-item.x-item-pressed{
+      background:rgba(100, 155, 2, 0.3) !important;
+      border-top-color: transparent !important;
+    }  
+  }
+
+  .x-dataview{
+    .x-dataview-item{
+      padding: 10px;
+      border-bottom: 1px solid #649b02;
+      .headingCls{
+	color:#1d5a8a;
+	font-size: 16px;
+	font-weight: bold;
+      }
+      &.x-item-pressed, &.x-item-pressing{
+	background:rgba(100, 155, 2, 0.3) !important;
+	border-top-color: transparent !important;
+      }
+    }
+
+  }
+
+  //--------------------------------News List -----------------------------------------------------
+
+  .newsListCls, .videoListCls{
+    .x-dataview-item{
+      padding: 10px;
+      border: 1px solid #333;
+      margin: 10px 5px 0px;
+      color:#000;
+      box-shadow:1px 3px 5px #333;
+      background: #fff;
+      border-radius: 10px;
+      .headingCls{
+	color:#1d5a8a;
+	font-size: 16px;
+	font-weight: bold;
+      }
+      .contentCls{
+	font-size: 13px;
+      }
+      &.x-item-pressed, &.x-item-pressing{
+	background:rgba(100, 155, 2, 0.3) !important;
+	border-top-color: transparent !important;
+      }
+    }
+  }
+
+  //--------------------------------Videos List -----------------------------------------------------
+
+  .videoListCls{
+    .title {
+      font-size: 18px;
+      text-decoration: underline;
+      padding-bottom: 10px;
+    }
+  } 
+
+  //--------------------------------AP Central List -----------------------------------------------------
+
+/*  .APCentralListCls{
+    border-bottom: 1px solid #649b02;
+    padding-bottom: 10px;
+    .x-dataview-item{
+      padding: 5px;
+      width:32%;
+      color:#000;
+      border: 1px solid #333;
+      border-radius: 10px;
+      background: #fff;
+      display: inline-block !important;
+      .headingCls{
+	color:#1d5a8a;
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 5px;
+      }
+      .contentCls{
+	font-size: 13px;
+      }
+      &.x-item-pressed, &.x-item-pressing{
+	background:rgba(100, 155, 2, 0.3) !important;
+	border-top-color: transparent !important;
+      }
+    }  
+    .x-dataview-item:first-child{
+      margin:5px 0px 5px 5px;
+    }  
+    .x-dataview-item{
+      margin:5px;
+    }  
+    .x-dataview-item:last-child{
+      margin:5px 0px;
+    }  
+  }*/
+  // --------------------------- Paragraph list style------------------------------------------------
+
+  .contentListCls{
+    padding: 10px;
+    /*    border: 1px solid #333;
+	margin: 10px 5px 0px;
+	color:#000;
+	box-shadow:1px 3px 5px #333;
+	background: #fff;*/
+    .x-dataview-item{
+      padding: 10px 0;
+      .headingCls{
+	color:#1d5a8a;
+	font-size: 16px;
+	font-weight: bold;
+      }
+      .contentCls{
+	font-size: 13px;
+      }
+      &.x-item-pressed, &.x-item-pressing{
+	background: #fff !important;
+	border-top-color: transparent !important;
+      }
+    }
+  }
+}

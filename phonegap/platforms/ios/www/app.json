@@ -1,0 +1,1 @@
+{"id":"22c105f4-846c-4295-bf3f-816099ce029f","js":[{"path":"phonegap.js","remote":true},{"path":"resources/js/jsOAuth-1.3.6.min.js","remote":true},{"path":"phonegap/plugins/com.bez4pieci.cookies/www/cookies.js"},{"path":"app.js","update":"delta"}],"css":[{"path":"resources/css/app.css","update":"delta"}]}

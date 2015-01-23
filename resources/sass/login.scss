@@ -1,0 +1,46 @@
+@mixin login{
+  .loginCls{
+    background: #fff;
+    .x-scroll-container{
+      background: #fff;
+    } 
+  }
+
+  .signupBtnCls{
+	color: white;
+	border: 0px;
+	background: #0c2336;
+	border-radius: 0px;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	font-size: 1.2em;
+  }
+
+  .loginBtnCls{
+  	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	border: 0px;
+	background: #1d5a8a;
+	border-radius: 1em;
+	font-size: 1.1em;
+	width: 7em !important;
+  }
+
+  .forgotPasswordBtnCls{
+  	margin-left: auto;
+	margin-right: auto;
+	border: 0px;
+	background: none;
+	text-decoration: underline;
+	color: rgb(17, 34, 204);
+	margin-top: 1em;
+	font-weight: normal;
+  }
+
+  .emailInputCls{
+	border-bottom: 1px solid lightgray !important;
+	margin-bottom: 1em;
+	color: gray;
+  }
+}

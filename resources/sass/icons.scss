@@ -1,0 +1,87 @@
+@mixin icons{
+
+  @include icon-font('icomoon', inline-font-files(
+  'icon/icomoon.woff', woff,
+  'icon/icomoon.ttf', truetype,
+  'icon/icomoon.svg', svg
+  ));
+
+  .loginIcon, .scheduleIcon, .infoIcon, .faceBookIcon, .twitterIcon, .logoutIcon, .raterNavListCls, .backBtnIcon{
+    //.speakerIcon, .sponsorIcon, .mapIcon,
+    font-family: 'icomoon';
+    span{
+      font-size: .9em;
+      position: relative;
+      top: -5px;
+    }
+  }
+
+  .loginIcon:before, .scheduleIcon:before, .infoIcon:before, 
+    .faceBookIcon:before, .twitterIcon:before, .loginIcon:before, .logoutIcon:before, .raterNavListCls:before, .backBtnIcon:before{
+    //.speakerIcon:before, .sponsorIcon:before, .mapIcon:before,
+    padding-right: 10px;
+    color:#fff;
+    font-size: 1.5em;
+  }
+  .loginIcon:before{
+    content: "\e60b";
+  }
+  .scheduleIcon:before{
+    content: "\e605";
+  }
+  /*  .speakerIcon:before{
+      content: "\e600";
+    }
+    .sponsorIcon:before{
+      content: "\e609";
+    }
+    .mapIcon:before{
+      content: "\e601";
+    }*/
+  .infoIcon:before{
+    content: "\e609";
+  }
+  .faceBookIcon:before{
+    content: "\e60d";
+  }
+  .twitterIcon:before{
+    content: "\e60e";
+  }
+  .raterNavListCls:before{
+    content: "\e615";
+  }
+  .loginIcon:before{
+    content: "\e60b";
+  }
+  .logoutIcon:before{
+    content: "\e60c";
+  }
+  .backBtnIcon:before{
+    content: "\e60f";
+  }
+
+  // Tab icons
+
+
+  .faceBookTabIcon:before{
+    content: "\e60d";
+  }
+  .twitterTabIcon:before{
+    content: "\e60e";
+  }
+  .infoTabIcon:before{
+    content: "\e609";
+  }
+  .loginTabIcon:before{
+    content: "\e60b";
+  }
+  .logoutTabIcon:before{
+    content: "\e60c";
+  }
+  .contactusTabIcon:before{
+    content: "\e601";
+  }
+  .scheduleTabIcon:before{
+    content: "\e605";
+  }
+}

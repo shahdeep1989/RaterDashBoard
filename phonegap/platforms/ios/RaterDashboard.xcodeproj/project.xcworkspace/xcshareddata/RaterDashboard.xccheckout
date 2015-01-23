@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
+	<string>434E5DD8-1187-4B93-8BAB-E4E1E8101754</string>
+=======
+	<string>80D3691D-FD26-455F-8A1D-A9C6376232E5</string>
+>>>>>>> 1fa2cc111473548828ae45940c5ba4b4d42cb326
+	<key>IDESourceControlProjectName</key>
+	<string>RaterDashboard</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E5DEB0EE6F1AE60753EF75E9E5F85143FF455193</key>
+		<string>https://bitbucket.org/shahdeep1989/raterapp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RaterDashboard/phonegap/platforms/ios/RaterDashboard.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E5DEB0EE6F1AE60753EF75E9E5F85143FF455193</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/shahdeep1989/raterapp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E5DEB0EE6F1AE60753EF75E9E5F85143FF455193</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E5DEB0EE6F1AE60753EF75E9E5F85143FF455193</string>
+			<key>IDESourceControlWCCName</key>
+<<<<<<< HEAD
+			<string>BitBucketRepo</string>
+=======
+			<string>raterapp</string>
+>>>>>>> 1fa2cc111473548828ae45940c5ba4b4d42cb326
+		</dict>
+	</array>
+</dict>
+</plist>

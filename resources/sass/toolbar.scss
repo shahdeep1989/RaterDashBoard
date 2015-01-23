@@ -1,0 +1,37 @@
+@mixin toolbar{
+  $color:#10314b;
+  $tabs-bar-gradient:'bevel';
+
+  /*@include sencha-toolbar-ui('mainToolbar', $color, $tabs-bar-gradient);*/
+
+  .x-toolbar.x-docked-top{
+    background: #1d5a8a;
+    
+    .x-title, .x-button{
+      color:#fff;
+    }
+  }
+   
+
+  .x-tabbar.x-docked-bottom{
+    /*@include background-gradient(darken($color, 2%), $tabs-bar-gradient);*/
+    
+    background: #1d5a8a;
+
+    .x-tab {
+      color: #FFFFFF;
+    }
+
+    .x-tab-active{
+      background: #0c2336;
+
+      .x-button-icon:before {
+	color: #1d5a8a;
+      }
+    }
+
+    .x-button-icon  {
+      color: #0c2336;  
+    }
+  }
+}
